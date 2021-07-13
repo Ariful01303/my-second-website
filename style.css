@@ -5,7 +5,30 @@ body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
 }
+/* manu sections */
+nav{
+    background:#562EFF
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+nav i{
+    color: #f7a350;
+    height: 50px;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav .link a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px;
+}
 /* top players style */
 main{
     display: flex;
@@ -125,7 +148,9 @@ hr{
 
     }
   
-    
+    .end{
+        background: #000;
+    }
 }
 /* tablite */
 @media only screen and (min-width:682px) and 
